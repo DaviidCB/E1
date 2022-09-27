@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-  float a,b;
-  cout<<"Ingrese a  : "; cin>>a;
-  cout<<"Ingrese b  : "; cin>>b;
-  if(a==b){
+  float DACB_a,DACB_b;
+  cout<<"Ingrese DACB_a  : "; cin>>DACB_a;
+  cout<<"Ingrese DACB_b  : "; cin>>DACB_b;
+  if(DACB_a==DACB_b){
      cout<<"Son iguales"<<endl;
   }else{
-     if(a<b){
-       cout<<a<<" es el menor que "<<b<<"\n";
+     if(DACB_a<DACB_b){
+       cout<<DACB_a<<" es el menor que "<<DACB_b<<"\n";
      }else{
-       cout<<b<<" es el menor que "<<a<<"\n";
+       cout<<DACB_b<<" es el menor que "<<DACB_a<<"\n";
      }
   }
 
